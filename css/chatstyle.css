@@ -1,0 +1,39 @@
+#body{
+  background-color: #4CAF50;
+}
+#chat-container {
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 560px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #chat-area {
+    height: 500px;
+    overflow: scroll;
+    margin-bottom: 10px;
+  }
+  
+  #input-area {
+    display: flex;
+  }
+  
+  #input-box {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  #send-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .input-bar{
+    position: static;
+  }
+  
